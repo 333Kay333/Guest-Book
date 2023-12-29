@@ -1,0 +1,44 @@
+body {
+  background: silver;
+}
+.heading {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  margin:0% 20%;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 20%;
+  padding: 10px;
+
+}
+.guest {
+  background-color: dimgray;
+  padding: 2px;
+  font-family:cursive;
+  font-weight: normal;
+}
+.controls {
+  padding: 5px 10px 5px 10px;
+  font-family: cursive;
+}
+.ty {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin: 0% 20%;
+  padding: 10px;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+}
