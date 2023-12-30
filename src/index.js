@@ -5,13 +5,27 @@ document.getElementById("submitBtn").addEventListener("click", function(event) {
   const name = document.getElementById("name").value;
   const comments = document.getElementById("comments").value;
   
-
+  
   const emailString = email;
   const nameString = name;
   const commentsString = comments;
   
   
-  console.log("Email: " + emailString);
-  console.log("Name: " + nameString);
-  console.log("Comments: " + commentsString);
+  const guest = {
+    email: emailString,
+    name: nameString,
+    comments: commentsString
+  };
+  
+  
+  const guestList = JSON.parse(localStorage.getItem("guestList")) || [];
+  
+  
+  guestList.push(guest);
+  
+  
+  localStorage.setItem("guestList", JSON.stringify(guestList));
+  
+
+  console.log("Guest information stored successfully!");
 });
