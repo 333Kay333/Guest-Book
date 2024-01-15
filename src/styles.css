@@ -1,8 +1,8 @@
 body {
-  background: silver;
+  background: rgb(230, 167, 154);
 }
 .heading {
-  background-color: black;
+  background-color: rgb(141, 155, 145);
   color: white;
   text-align: center;
   font-family: cursive;
@@ -22,7 +22,7 @@ form {
 
 }
 .guest {
-  background-color: dimgray;
+  background-color: rgb(141, 155, 145);
   padding: 2px;
   font-family:cursive;
   font-weight: normal;
